@@ -1,0 +1,25 @@
+{
+	"response": {
+		"players": [
+			{
+				"steamid": "76561197996414647",
+				"communityvisibilitystate": 3,
+				"profilestate": 1,
+				"personaname": "Foldager",
+				"lastlogoff": 1403024044,
+				"commentpermission": 1,
+				"profileurl": "http://steamcommunity.com/id/silence-cssmaps/",
+				"avatar": "http://media.steampowered.com/steamcommunity/public/images/avatars/8b/8b5bbc2b3d2d8829ad5b16742c5a1579f304da22.jpg",
+				"avatarmedium": "http://media.steampowered.com/steamcommunity/public/images/avatars/8b/8b5bbc2b3d2d8829ad5b16742c5a1579f304da22_medium.jpg",
+				"avatarfull": "http://media.steampowered.com/steamcommunity/public/images/avatars/8b/8b5bbc2b3d2d8829ad5b16742c5a1579f304da22_full.jpg",
+				"personastate": 1,
+				"realname": "77.66.33.68:27013",
+				"primaryclanid": "103582791432943084",
+				"timecreated": 1202486411,
+				"personastateflags": 0,
+				"loccountrycode": "DK"
+			}
+		]
+		
+	}
+}
