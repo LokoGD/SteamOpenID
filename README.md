@@ -8,6 +8,27 @@ Steam OpenID Ressource
 
 *****
 
+Usage:
+------
+
+1. Download the [ZIP file](https://github.com/foldagerdk/SteamOpenID/archive/master.zip)
+2. Extract or open as you see fit
+3. Upload all 5 files to a web server with PHP installed and enabled
+4. Open *apikey.php* and change the *$api* variable to your own API key found [here](http://steamcommunity.com/dev/apikey)
+5. Open *auth.php* and change the *$redir* variable to which page you wish to redirect the user to after login/logout
+6. Open *example.php* and follow the instructions within
+7. Open *http://your-site.com/example.php* and try it all out
+
+**Notes:**
+* No need to modify *OpenId.php* or *cache/example.json*
+* If you wish to add more options to the *getInfo.php* file, feel free to do so. You can read the *example.json* file if needed
+* If you have any questions, feel free to contact me and ask
+
+*****
+
+Licenses:
+---------
+
 **The ressource is distributed with LightOpenID under the OpenID license**
 
 *Copyright (c) 2013 The OpenID Foundation.*
@@ -32,22 +53,6 @@ Steam OpenID Ressource
 
 **In human language:**
 
-*You are allowed to change everything, and do with it as you please, as long as credit and copyright notice remains.*
+*You are allowed to change everything, and do with it as you please, as long as credit and copyright notices remains.*
 
 *****
-
-Usage:
-------
-
-1. Download the [ZIP file](https://github.com/foldagerdk/SteamOpenID/archive/master.zip)
-2. Extract or open as you see fit
-3. Upload all 5 files to a web server with PHP installed and enabled
-4. Open *apikey.php* and change the *$api* variable to your own API key found [here](http://steamcommunity.com/dev/apikey)
-5. Open *auth.php* and change the *$redir* variable to which page you wish to redirect the user to after login/logout
-6. Open *example.php* and follow the instructions within
-7. Open *http://your-site.com/example.php* and try it all out
-
-**Notes:**
-* No need to modify *OpenId.php* or *cache/example.json*
-* If you wish to add more options to the *getInfo.php* file, feel free to do so. You can read the *example.json* file if needed
-* If you have any questions, feel free to contact me and ask
