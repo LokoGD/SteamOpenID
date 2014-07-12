@@ -22,7 +22,7 @@ try {
         } else if(isset($_GET['logout'])) {
             if (isset($_SESSION['SteamAuth']) && $_SESSION['SteamAuth'] != '') {
                 unset($_SESSION['SteamAuth']);
-                unset($_SESSION['Steam64ID']);
+                unset($_SESSION['SteamID64']);
                 header("Location: {$redir}");
             } else {
                 header("Location: {$redir}?err2");
