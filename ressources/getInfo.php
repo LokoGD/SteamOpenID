@@ -13,7 +13,7 @@ if (!(isset($_SESSION['SteamAuth']) && $_SESSION['SteamAuth'] != '')) {
 } else {
 	/*This is what should happen. */
 	$Steam64 = $_SESSION['SteamID64'];
-	$steamuser = json_decode(file_get_contents("http://awsu.me/cache/$Steam64.json"));
+	$steamuser = json_decode(file_get_contents("/cache/$Steam64.json"));
 	foreach ($steamuser->response->players as $player){
 		$info_name = $player->personaname;
 		$info_id = $player->steamid;
