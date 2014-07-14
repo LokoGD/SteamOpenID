@@ -10,7 +10,7 @@ $redir = "/example.php";
 session_start();
 
 try {
-    $openid = new LightOpenID('awsu.me');
+    $openid = new LightOpenID('domain.com');
     if(!$openid->mode) {
         if(isset($_GET['login'])) {
             if (!(isset($_SESSION['SteamAuth']) && $_SESSION['SteamAuth'] != '')) {
