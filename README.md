@@ -1,10 +1,10 @@
 SteamOpenID
 ===========
 
-Steam OpenID Ressource
+Steam OpenID Resource
 ----------------------
 
-*This ressource was created to better let users new to the Steam OpenID possibilities understand them and get into development quicker.*
+*This resource was created to better let users new to the Steam OpenID possibilities understand them and get into development quicker.*
 
 *****
 
@@ -29,7 +29,7 @@ Usage:
 Licenses:
 ---------
 
-**The ressource is distributed with LightOpenID under the OpenID & LightOpenID licenses**
+**The resource is distributed with LightOpenID under the OpenID & LightOpenID licenses**
 
 *****
 
@@ -57,7 +57,7 @@ Licenses:
 
 *****
 
-**Everything else in the ressource was written by Foldager**
+**Everything else in the resource was written by Foldager**
 
 *The MIT License (MIT)*
 
